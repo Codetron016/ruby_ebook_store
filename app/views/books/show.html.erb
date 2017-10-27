@@ -1,7 +1,7 @@
 
 <div class = "row">
-   <div class = "col-md-6">
-      <%= image_tag "cover_fb.jpg", class: 'img-responsive' %>
+   <div class = "col-md-4">
+      <%= image_tag @book.image.url, class: 'img-responsive' %>
    </div>
    <div class = "col-md-6">
       <h3><%= @book.name%> by <%= @book.author %></h3>
